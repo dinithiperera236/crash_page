@@ -1,7 +1,20 @@
+body,ul,h1,a,li
+
+{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+
+
+
 header
 {
     background-color: crimson;
-    padding: 2px;
+    padding: 10px;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -14,7 +27,7 @@ header h1
 {
     color: white;
     border: 8px solid;
-    padding: 6px 12px ;
+    padding: 10px 12px ;
     font-family: Comic Sans MS;
     font-size: 40px;
     display: inline-block;
@@ -57,4 +70,53 @@ header h1
     font-family: Comic Sans MS;
     font-size: 100px;
 
+}
+
+nav
+{
+    background-color: tomato;
+    padding: 20px;
+    position: sticky;
+    top: 112px;
+}
+nav li
+{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+    font-family: arial;
+}
+nav ul
+{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: auto;
+}
+nav ul a
+{
+    text-decoration: none;
+    color: blue;
+}
+
+main
+{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h1,h2
+{
+    display: inline;
+    color: crimson;
+}
+article h1 
+{
+    font-family:Comic Sans MS ;
+}
+article p
+{
+    line-height: 32px;
+    color: #4b4b4b;
 }
