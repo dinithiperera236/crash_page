@@ -1,5 +1,4 @@
 header
 {
-    position: relative;
-    left: 200px;
+    position: static;
 }
