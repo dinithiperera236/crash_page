@@ -1,4 +1,6 @@
 header
 {
-    position: static;
+    position: relative;
+    left: 100px;
+    top: 20px;
 }
